@@ -15,6 +15,7 @@ export const StyledBtn = styled.button<StyledBtnType>`
   font-weight: bold;
   font-size: ${props => props.fontSize || '1.6rem'};
   padding: 10px 20px;
+  background: ${props => props.color};
 
   ${props => props.btnType === 'outlined' && css<StyledBtnType>`
     border: 2px solid ${props => props.color || '#b2ff30'};
