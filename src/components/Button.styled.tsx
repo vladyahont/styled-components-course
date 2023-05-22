@@ -29,7 +29,7 @@ export const StyledBtn = styled.button<StyledBtnType>`
     }
   `}
   ${props => props.btnType === 'primary' && css<StyledBtnType>`
-    border: 2 solid ${props => props.color || '#b2ff30'};
+    border: 2px solid ${props => props.color || '#b2ff30'};
     color: deeppink;
 
     &:hover {
