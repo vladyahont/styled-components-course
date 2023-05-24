@@ -10,7 +10,7 @@ type StyledBtnType = {
 
 }
 export const StyledBtn = styled.button<StyledBtnType>`
-  border: none;
+  //border: none;
   border-radius: 5px;
   font-weight: bold;
   font-size: ${props => props.fontSize || '1.6rem'};
