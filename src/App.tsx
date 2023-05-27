@@ -105,22 +105,22 @@ const Button = styled.button<ButtonPropsType>`
 
 
 
-// const Box = styled.div `
-//   height: 100vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   gap: 15px;
-//   button {
-//     cursor: pointer;
-//   }
-//   ${StyledLink} {
-//     cursor: zoom-in;
-//   }
-//
-//
-//
-//   @media ${myTheme.media.tablet} {
-//     flex-direction: column;
-//   }
-// `
+const Box = styled.div `
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  button {
+    cursor: pointer;
+  }
+  ${StyledLink} {
+    cursor: zoom-in;
+  }
+
+
+
+  @media ${myTheme.media.tablet} {
+    flex-direction: column;
+  }
+`
